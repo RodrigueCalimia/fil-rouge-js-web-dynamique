@@ -1,0 +1,27 @@
+.form {
+  &__group {
+    flex-direction: column;
+    color: $color-primary-hover;
+    label{
+      margin-left: 30px;
+    }
+    & input {
+      border: 2px solid $color-white;
+      border-radius: 100rem;
+      color: $color-primary;
+      font-size: 2.5rem;
+      outline: none;
+      padding: .5rem 1.5rem;
+      width: 100%;
+      transition: background-color 1s;
+      &:focus {
+        border: 2px solid $color-primary-hover;
+      }
+      &:not(:focus):invalid{
+        background-color: $color-alert;
+        border: 2px solid $color-alert;
+        color: $color-white;
+      }
+    }
+  }
+}  

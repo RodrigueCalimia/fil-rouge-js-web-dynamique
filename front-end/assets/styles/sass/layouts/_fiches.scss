@@ -1,0 +1,11 @@
+.fiches {
+	flex: 1;
+	margin: 8px;
+    & img {
+        max-width: 200px;
+    }
+    & p {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}

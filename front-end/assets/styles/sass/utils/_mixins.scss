@@ -1,0 +1,15 @@
+@mixin dp-flex {
+  display: flex;
+}
+@mixin el-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@mixin dir-col {
+  flex-direction: column;
+}
+@mixin dir-col-reverse {
+  flex-direction: column-reverse;
+}

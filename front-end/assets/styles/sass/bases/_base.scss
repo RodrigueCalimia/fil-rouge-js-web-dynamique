@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
+
+main {
+  background-color: $color-grey-light;
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+  color: $color-white;
+  margin: 40px;
+}
+
+h2 {
+  color: $color-secondary;
+  margin: 40px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  @include el-center;
+}

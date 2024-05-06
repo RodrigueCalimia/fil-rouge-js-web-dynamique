@@ -1,0 +1,20 @@
+.boxes {
+    @include dp-flex;
+    @include dir-col;
+    &__base{
+        width: 120px;
+        height: 120px;
+        color: $color-light;
+        margin: 20px;
+        @include el-center;
+    }
+    &--transxScale {
+        background: $color-confirm;
+        transition: transform 500ms ease-in-out;
+    }
+
+    &--scaleTransx {
+        background: $color-info;
+        transition: transform 500ms ease-in-out;
+    }
+}

@@ -1,0 +1,18 @@
+.section-hero {
+  @include dp-flex;
+  @include el-center;
+}
+
+.section-content {
+  padding: 40px 80px;
+}
+
+.anim {
+  &__container {
+    @include dp-flex;
+    @include dir-col-reverse;
+  }
+}
+span{
+  color: $color-light;
+}

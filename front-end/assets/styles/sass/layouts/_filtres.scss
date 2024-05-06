@@ -1,0 +1,11 @@
+.filtres {
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px $color-black-main;
+	margin: 8px;
+	padding: 8px;
+	min-width: 300px;
+	min-height: 400px;
+    & h3 {
+        text-align: center;
+    }
+}
