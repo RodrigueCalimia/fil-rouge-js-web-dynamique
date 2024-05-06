@@ -10,10 +10,9 @@ body{
 .container{
   max-width: 1440px;
   margin: auto;
-}
+}  
 
 main {
-  background-color: $color-grey-light;
 	display: flex;
 	flex-direction: row;
 }
@@ -25,11 +24,10 @@ h1 {
 
 h2 {
   color: $color-secondary;
-  margin: 40px;
+  margin: 0;
 }
 
-h1,
-h2 {
+h1 {
   text-align: center;
 }
 

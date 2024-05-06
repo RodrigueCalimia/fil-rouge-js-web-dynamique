@@ -1,12 +1,12 @@
-header {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin-bottom: 16px;
-	padding: 8px;
-	background-color: $color-primary;
-	text-align: center;
-	color: $color-white;
+.header-hero{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 8px;
+  background-color: $color-primary;
+  text-align: center;
+  color: $color-white;
   & img {
     height: 60px;
     margin-left: 1rem;
