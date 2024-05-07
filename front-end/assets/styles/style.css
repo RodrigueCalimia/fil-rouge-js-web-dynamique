@@ -219,19 +219,16 @@ span {
 .btn {
   background: #DD3DFF;
   color: #f9f8ff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
-  padding: 1.85rem 3rem;
-  border-radius: 10rem;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
   border: 0.2rem solid #f9f8ff;
-  margin-top: 40px;
-  width: 250px;
+  margin-top: 20px;
+  width: auto;
 }
-.btn:hover + .boxes > .boxes--transxScale {
-  transform: translateX(200%) scale(2);
-}
-.btn:hover + .boxes > .boxes--scaleTransx {
-  transform: scale(2) translateX(200%);
+.btn:hover {
+  background: #7324C5;
 }
 
 .icon-logo:hover {
