@@ -25,7 +25,7 @@ h1 {
 
 h2 {
   color: #513FD1;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 h1 {
@@ -59,13 +59,13 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
 }
 
 p,
 li {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #513FD1;
 }
 
@@ -182,13 +182,26 @@ span {
 .fiches {
   flex: 1;
   margin: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
 }
-.fiches img {
+.fiches article {
+  border: 1px solid #242424;
+  padding: 4px;
+}
+.fiches article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 200px;
 }
-.fiches p {
+.fiches article p {
   margin-top: 4px;
   margin-bottom: 4px;
+}
+.fiches article h2 {
+  text-align: center;
 }
 
 .filtres {
